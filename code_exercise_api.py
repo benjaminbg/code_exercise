@@ -11,6 +11,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import pandas as pd
 
+#from transformers.transformers import DataFormatterTransformer, LabelEncoderTransformer 
 from transformers import DataFormatterTransformer, LabelEncoderTransformer 
     
 app = FastAPI(debug = True)
